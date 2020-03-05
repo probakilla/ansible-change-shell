@@ -16,3 +16,20 @@ The name of the user to change it's default shell
 Default value /usr/bin/zsh
 The the shell to set by default for the {{ user }}.
 
+## Howto use this role
+
+This role needs to be included in a playbook
+You can install it with *Galaxy*
+
+```bash
+ansible-galaxy install -r requirements.yml
+```
+
+requirements.yml
+```
+- src: probakilla.default_shell
+```
+
+# Requirements
+
+- Ansible 2.4+
