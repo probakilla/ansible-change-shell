@@ -18,4 +18,5 @@ galaxy_info:
     - shell
     - zsh
 
-dependencies: []
+dependencies:
+  - src: probakilla.apt_install
