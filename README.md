@@ -33,3 +33,4 @@ requirements.yml
 # Requirements
 
 - Ansible 2.4+
+- Zsh (if you use default configuration)
