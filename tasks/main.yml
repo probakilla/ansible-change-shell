@@ -1,0 +1,7 @@
+---
+
+- name: "Change default shell to ZSH for user {{ user }}"
+  user:
+    name: "{{ user }}"
+    shell: "{{ new_shell }}"
+  become: true

@@ -1,0 +1,6 @@
+---
+
+# The wanted username to change default shell
+user: "{{ ansible_user }}"
+# The new shell to set
+new_shell: /usr/bin/zsh
